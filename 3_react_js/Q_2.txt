@@ -1,0 +1,9 @@
+2. What is NPM in React Js?
+
+ans :
+
+ NPM (Node Package Manager) is a package manager for JavaScript, and it is the default package manager for Node.js. In the context of React.js:
+
+ NPM allows you to install, update, and manage third-party packages and dependencies in your React projects.
+
+You can define scripts in the package.json file to automate tasks like building, testing, and running your React application.Developers can publish their own packages to the NPM registry for others to use.To use NPM, you need to have Node.js installed, which includes NPM by default.

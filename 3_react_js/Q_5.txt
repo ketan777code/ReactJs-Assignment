@@ -1,0 +1,10 @@
+5.What is Components in React Js?
+
+ans:
+
+Components in React.js are the building blocks of a React application. They are reusable pieces of the UI that can manage their own state and props. There are two types of components:
+
+
+Functional Components: Simple components defined as functions.
+
+Class Components: More complex components defined as ES6 classes.

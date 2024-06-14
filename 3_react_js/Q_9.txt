@@ -1,0 +1,49 @@
+9.How to change in components of React Js?
+
+ans :
+
+To modify components in React.js, follow these steps:
+
+Locate the Component File:
+
+Find the JavaScript file where the component is defined. For example, App.js, Header.js, Footer.js, etc.
+Edit the Component:
+
+Open the file in a text editor or an IDE like VSCode.
+Make the necessary changes to the component's code. Here is an example of a simple component before and after modification:
+Before:
+
+
+
+
+import React from 'react';
+
+function Header() {
+  return (
+    <header>
+      <h1>Welcome to My App</h1>
+    </header>
+  );
+}
+
+export default Header;
+After:
+
+
+
+
+import React from 'react';
+
+function Header() {
+  return (
+    <header>
+      <h1>Welcome to My Awesome App</h1>
+      <p>Enjoy your stay!</p>
+    </header>
+  );
+}
+
+export default Header;
+Save the File:
+
+Save your changes. The development server (if running) should automatically refresh the browser to reflect the changes.

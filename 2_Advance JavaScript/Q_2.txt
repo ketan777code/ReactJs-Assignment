@@ -1,0 +1,20 @@
+ 2.What is JavaScript Output method?
+
+ans:
+
+1. console.log()
+Purpose: Primarily used for debugging. It outputs information to the browser's console.
+
+alert()
+Purpose: Displays a pop-up alert box with a specified message and an OK button.
+
+document.write()
+
+Purpose: Writes directly to the HTML document. It should be used sparingly as it can overwrite the entire document if called after the document is loaded.
+
+innerHTML
+Purpose: Inserts HTML or text into an HTML element.
+
+
+innerText / textContent
+Purpose: Inserts text into an HTML element. innerText respects HTML tags, whereas textContent does not.

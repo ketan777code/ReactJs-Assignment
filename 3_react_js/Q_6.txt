@@ -1,0 +1,9 @@
+6.What is Header and Content Components in React Js?
+
+ans:
+
+Header and Content Components are examples of typical React components used to structure a web page:
+
+Header Component: Usually contains navigation elements like a logo, menu, and other header-related elements.
+
+Content Component: Holds the main content of the web page, often includes multiple sub-components.

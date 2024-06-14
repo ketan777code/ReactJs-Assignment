@@ -1,0 +1,9 @@
+4. What is CLI command In React Js?
+
+ans :
+
+A CLI (Command Line Interface) command in React.js is used to perform various tasks from the command line. The most commonly used CLI command is provided by Create React App:
+
+npm start: Starts the development server.
+npm build: Builds the app for production.
+npm test: Runs the test suite.

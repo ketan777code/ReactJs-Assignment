@@ -1,0 +1,79 @@
+7.How to install React Js on Windows, Linux Operating System?
+
+ans:
+
+Installing React.js involves setting up Node.js and using Create React App:
+
+Windows:
+Install Node.js and NPM:
+
+Download the Node.js installer from nodejs.org.
+Run the installer and follow the prompts.
+Verify installation
+
+node -v
+npm -v
+
+On Linux
+Install Node.js and npm:
+
+Open your terminal and update your package index:
+
+
+sudo apt update
+Install Node.js and npm by using the following commands:
+
+
+sudo apt install nodejs npm
+Verify Installation:
+
+Check the installed versions by running:
+
+
+node -v
+npm -v
+Installing React.js
+Once you have Node.js and npm installed, you can use the npx command (which comes with npm) to create a new React.js application.
+
+Create a React Application:
+
+In your terminal (Command Prompt on Windows or terminal on Linux), run the following command:
+
+
+npx create-react-app my-app
+Replace "my-app" with your desired project name.
+Navigate to Your Project Directory:
+
+
+
+cd my-app
+Start the Development Server:
+
+
+
+npm start
+This will start the development server and open the React application in your default web browser.
+Checking the Version of npm
+To check the version of npm installed on your system, simply run:
+
+
+
+npm -v
+This command will print the version number of npm.
+
+Summary
+Install Node.js and npm:
+
+Windows: Download from the Node.js website.
+Linux: Use sudo apt install nodejs npm.
+Verify Installation:
+
+Run node -v and npm -v.
+Create a React Application:
+
+Use npx create-react-app my-app.
+Check npm Version:
+
+Run npm -v.
+
+

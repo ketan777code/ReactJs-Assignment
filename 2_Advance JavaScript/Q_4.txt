@@ -1,0 +1,18 @@
+4.How to used JavaScript Events to do all examples? 
+
+ans :
+
+
+1. Using Events with console.log()
+You can log messages to the console based on various events, such as button clicks or form submissions.
+
+
+2. Using Events with alert()
+You can use events to trigger alert messages based on user actions.
+
+
+3. Using Events with document.write()
+Direct use of document.write() is not recommended after the page has loaded. Instead, you can dynamically update the content of an element using events.
+
+4. Using Events with innerHTML
+You can dynamically update content based on events, such as button clicks or form submissions.

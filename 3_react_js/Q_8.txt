@@ -1,0 +1,8 @@
+8. How to check version of React Js?
+
+ans :
+
+Run the following commands in your terminal to check the installed version of React:
+
+npm list react
+npm list react-dom 
