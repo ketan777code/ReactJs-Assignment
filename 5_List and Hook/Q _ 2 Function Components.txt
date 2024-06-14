@@ -1,0 +1,20 @@
+2.Explain Life cycle in Class Component and functional component with Hooks.
+
+Ans :
+
+Functional Components with Hooks :-
+
+Functional components don't have lifecycle methods, but React hooks provide a way to hook into these lifecycle events.
+
+1. Mounting and Updating:
+Hooks like useEffect, useState, and useContext manage the component's lifecycle in functional components.
+
+useState(initialState): Used to manage state in functional components.
+
+useEffect(callback, dependencies): Combines the functionalities of componentDidMount, componentDidUpdate, and componentWillUnmount.
+
+useLayoutEffect(callback, dependencies): Similar to useEffect but runs synchronously after all DOM mutations. It's the hook version of componentDidMount and componentDidUpdate but with DOM-related updates happening before the browser paints.
+
+
+2. Unmounting:
+The cleanup function returned from useEffect serves the purpose of componentWillUnmount.

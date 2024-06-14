@@ -1,0 +1,38 @@
+1.Explain Life cycle in Class Component and functional component with Hooks.
+
+ans:
+
+Class Components Lifecycle
+Class components in React have a defined lifecycle that can be divided into three main phases: mounting, updating, and unmounting.
+
+1. Mounting:
+This phase covers the initial creation and insertion of the component into the DOM.
+
+constructor():
+ Called before the component is mounted. Used for initializing state and binding event handlers.
+
+static getDerivedStateFromProps(props, state):
+ Called right before rendering the element(s) in the DOM. Used to update the state based on the props.
+
+render(): The only required method in a class component. It returns the JSX representing the component's UI.
+
+componentDidMount(): Called after the component is mounted. Used for DOM operations, data fetching, and setting up subscriptions.
+
+2. Updating:
+This phase covers the re-rendering of the component in response to changes in props or state.
+
+static getDerivedStateFromProps(props, state): Also called during this phase if the component's props change.
+
+shouldComponentUpdate(nextProps, nextState): Determines whether the component should re-render or not. Returns a boolean value.
+
+render(): Called again to re-render the component.
+
+getSnapshotBeforeUpdate(prevProps, prevState): Called right before the DOM is updated. It can capture some information (e.g., scroll position) from the DOM before it is potentially changed.
+
+componentDidUpdate(prevProps, prevState, snapshot): Called after the DOM is updated. Used for operations that need to happen after the component's updates are flushed to the DOM.
+
+3. Unmounting:
+
+This phase covers the removal of the component from the DOM.
+
+componentWillUnmount(): Called right before the component is removed from the DOM. Used for cleanup operations like invalidating timers or cancelling network requests.
